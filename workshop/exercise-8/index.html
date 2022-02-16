@@ -1,1 +1,66 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Registration form</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required/>
+            
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="password" required/>
+
+            <br/>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <p>Which taxi do you require?</p>
+            <input type="radio" id="car" name="taxitype"value="car" required/>
+            <label for="car">Car</label>
+            <br/>
+            <input type="radio" id="van" name="taxitype" value="van" required/>
+            <label for="van">Van</label>
+            <br/>
+            <input type="radio" id="tuktuk" name="taxitype" value="tuktuk" required/>
+            <label for="tuktuk">Tuk Tuk</label>
+
+            <br/>
+
+            <p>Extras</p>
+            <input type="checkbox" id="babyseat" name="extras" value="babyseat" />
+            <label for="babyseat">Baby Seat</label>
+            <br/>
+            <input type="checkbox" id="wheelchair" name="extras" value="wheelchair" />
+            <label for="wheelchair">Wheelchair Access</label>
+            <br/>
+            <input type="checkbox" id="stocktip" name="extras" value="stocktip" />
+            <label for="stocktip">Stock Tip</label>
+
+            <br/>
+
+            <label for="pickup">Pickup</label>
+            <select id="pickup" name="pickup">
+                <option value="selectone" selected>Select One</option>
+                <option value="taxioffice">Taxi Office</option>
+                <option value="townhall">Town Hall</option>
+                <option value="wellguess">We'll Guess</option>
+            </select>
+
+            <br/>
+
+            <label for="special">Special</label>
+            <textarea id="special" name="special" rows="3" cols="30"></textarea>
+
+            <br/>
+
+            <input type="submit" />
+
+
+
+        </form>
+
+    </body>
+
+
+</html>
